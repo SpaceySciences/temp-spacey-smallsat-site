@@ -14,7 +14,7 @@ body {
 img {
   /* Set rules to fill background */
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 800px;
 
   /* Set up proportionate scaling */
   width: 100%;
@@ -24,7 +24,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-
+  z-index: -20;
 }
 
 h1 {
@@ -37,14 +37,36 @@ h1 {
   text-shadow: -1px -1px 0 #dddfe6, 1px -1px 0 #dddfe6, -1px 1px 0 #dddfe6, 1px 1px 0 #dddfe6;
 }
 
+ul {
+  text-align: center;
+  z-index: 20;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  padding: 10px;
+  float: left;
+}
+
+li a {
+  color: #a6172d;
+  display: block;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #c72e45;
+}
+
 p {
-  color: black;
+  color: red;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 2px;
-  padding-left: 5%;
-  padding-right: 5%;
+  z-index: 10;
 }
 
 .fa-cog {
@@ -56,8 +78,8 @@ p {
 }
 
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 92%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 92vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   justify-content: center;
