@@ -1,1 +1,21 @@
-asdf
+html {
+  background: black;
+}
+
+body {
+  vertical-align: middle;
+}
+
+.fa-cog {
+  color: white;
+}
+
+.icon-cog {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+}
