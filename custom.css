@@ -86,11 +86,25 @@ p {
   color: black;
 }
 
-.vertical-center {
-  min-height: 87%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 87vh; /* These two lines are counted as one :-)       */
+.vertical-center-70 {
+  min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 70vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.vertical-center-20 {
+  min-height: 20%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 20vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  padding-left: 10px;
+  padding-right: 10px;
 }
