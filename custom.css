@@ -34,6 +34,7 @@ h1 {
   font-weight: bold;
   font-size: 70px;
   text-align: center;
+  margin-top: 195px;
   letter-spacing: 5px;
   z-index: 10;
 }
@@ -44,7 +45,7 @@ ul {
   list-style-type: inline;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 li {
@@ -78,6 +79,10 @@ p {
   z-index: 10;
 }
 
+.departments {
+  margin-top: 250px;
+}
+
 .fa-cog {
   color: black;
 }
@@ -102,6 +107,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.social {
+  margin-top: 10px;
 }
 
 .social {
