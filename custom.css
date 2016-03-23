@@ -44,7 +44,7 @@ ul {
   list-style-type: inline;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 li {
@@ -78,6 +78,10 @@ p {
   z-index: 10;
 }
 
+.departments {
+  margin-top: 200px;
+}
+
 .fa-cog {
   color: black;
 }
@@ -86,13 +90,13 @@ p {
   color: black;
 }
 
-.vertical-center-70 {
-  min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 70vh; /* These two lines are counted as one :-)       */
+.vertical-center-40 {
+  min-height: 40%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 40vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .vertical-center-20 {
@@ -107,4 +111,9 @@ p {
 .social {
   padding-left: 10px;
   padding-right: 10px;
+  color: #f6f6f6;
+}
+
+.social:hover {
+  color: #15abbf;
 }
